@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="ALL"
+            android:textSize="20dp"
+            android:onClick="showAll"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="ก"
+            android:textSize="20dp"
+            android:onClick="show1"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="ด"
+            android:textSize="20dp"
+            android:onClick="show2"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="บ"
+            android:textSize="20dp"
+            android:onClick="show3"/>
+
+
+    </LinearLayout>
+
+    <ListView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/listView"
+
+        android:layout_marginRight="20dp"
+
+        android:layout_marginTop="50dp"
+        />
+
+</RelativeLayout>
